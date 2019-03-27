@@ -22,9 +22,11 @@ public class LoginActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         if (intent != null && intent.getExtras() != null) {
-            Bundle bundle = intent.getBundleExtra("bundle");
-            appId = bundle.getString("appId");
-            cartId = bundle.getString("cartId");
+            Bundle bundle = intent.getExtras().getBundle("bundle");
+            if (bundle != null) {
+                appId = bundle.getString("appId", "");
+                cartId = bundle.getString("cartId", "");
+            }
         }
 
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
