@@ -46,7 +46,7 @@ public class LoginActivity extends ModuleManagerActivity {
     }
 
     @Override
-    public ArrayMap<String, ArrayList<Integer>> moduleConfig() {
+    public ArrayMap<String, ArrayList<Integer>> moduleConfig() {    //配置module的反射需要的名字和装载的ViewGroup
         ArrayMap<String, ArrayList<Integer>> map = new ArrayMap<>();
         map.put(PageConfig.MODULE_PAGE_NAME, new ArrayList<Integer>() {{
             add(R.id.page_name);

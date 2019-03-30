@@ -11,7 +11,7 @@ import chen.baselib.baseActivityModule.BaseModule;
 import chen.baselib.baseActivityModule.ModuleContext;
 
 /**
- * Introduce :
+ * Introduce :  都继承自BaseModule
  * Created by CHEN_ on 2019/3/29.
  * PACKAGE_NAME : chen.module_login
  **/
