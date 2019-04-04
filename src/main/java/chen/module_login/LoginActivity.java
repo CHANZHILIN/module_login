@@ -11,7 +11,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 import java.util.ArrayList;
 
 import chen.baselib.Constants;
-import chen.baselib.baseActivityModule.ModuleManagerActivity;
+import chen.baselib.modularization_distribute.ModuleManagerActivity;
 
 @Route(path = Constants.LOGIN_PATH)
 public class LoginActivity extends ModuleManagerActivity {

@@ -7,8 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import chen.baselib.baseActivityModule.BaseModule;
-import chen.baselib.baseActivityModule.ModuleContext;
+import chen.baselib.modularization_distribute.BaseModule;
+import chen.baselib.modularization_distribute.ModuleContext;
 
 /**
  * Introduce :
