@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import chen.baselib.Constants;
 import chen.baselib.modularization_distribute.ModuleManagerActivity;
 
-@Route(path = Constants.LOGIN_PATH)
+@Route(path = Constants.LOGIN_ACTIVITY_PATH)
 public class LoginActivity extends ModuleManagerActivity {
     private String appId;
     private String cartId;

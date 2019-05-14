@@ -7,7 +7,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
 
 import chen.baselib.Constants;
 
-@Route(path = Constants.SECOND_PATH)
+@Route(path = Constants.SECOND_ACTIVITY_PATH)
 public class SecondActivity extends AppCompatActivity {
 
     @Override
