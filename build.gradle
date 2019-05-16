@@ -4,6 +4,7 @@ if (project.ext.isModuleLoginDebug) {
 } else {
     apply plugin: 'com.android.library'  //集成开发模式
 }
+apply plugin: 'com.jakewharton.butterknife'
 
 android {
     project.ext.setDefaultConfig android    //调用配置信息
@@ -48,4 +49,6 @@ dependencies {
     implementation project(':lib_base')
 
     annotationProcessor 'com.alibaba:arouter-compiler:1.2.1'
+
+    annotationProcessor "com.jakewharton:butterknife-compiler:${project.ext.butterKnifeVersion}"
 }
